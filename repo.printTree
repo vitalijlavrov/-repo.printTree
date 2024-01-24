@@ -1,0 +1,7 @@
+ } else if (commandParts[0] == "print") {
+                repo.printTree();
+            } else if (commandParts[0] == "exit") {
+                break;
+            } else {
+                std::cout << "Invalid command. Try again.\n";
+            }
